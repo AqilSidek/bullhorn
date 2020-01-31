@@ -1,38 +1,236 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+/* blue hexcode: #202945
+orange hexcode: #ff6900 */
+
+.container {
+  display: flexbox;
+  flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ------ header section ------ */
+.heading {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+  background-image: url('./media/osman-rana2.png'); /* this is actually an image of Boston */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.heading-text {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 45vw;
+  margin-left: 10vw;
+}
+
+.title {
+  margin-top: 15vh;
+  font-size: 54px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bolder;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.subtitle {
+  margin-top: 5vh;
+  font-size: 25px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: medium;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* ------ first section ------ */
+.section-wrapper {
+  display: flex;
+  height: 50vh;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.section-text-1 {
+  width: 40vw;
+  margin-top: 12vh;
+}
+
+.title-1 {
+  font-size: 25px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bolder;
+  width: 30vw;
+}
+
+.subtitle-1 {
+  margin-top: 3vh;
+  font-family: 'Noto Sans KR', sans-serif;
+  width: 30vw;
+}
+
+.img-group {
+  width: 25vw;
+  margin-top: 7vh;
+}
+
+/* ------ second section ------ */
+.section-wrapper-2 {
+  display: flex;
+  height: 50vh;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #202945;
+}
+
+.column-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+}
+
+.title-2 {
+  font-size: 25px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bolder;
+  width: 30vw;
+  color: white;
+  text-align: center;
+}
+
+.subtitle-2 {
+  font-family: 'Noto Sans KR', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 3vh;
+}
+
+.bullhorn-icon {
+  margin-top: 5vh;
+}
+/* ------ third section ------ */
+.section-wrapper-3 {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10vh;
+}
+
+.category-header {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.section-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.img-innovation {
+  width: 35vw;
+  margin-top: 7vh;
+  padding-left: 10vw;
+}
+
+.dots-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.dots {
+  margin-top: 5vh;
+  width: 15vw;
+}
+/* ------ fourth section ------ */
+.section-wrapper-4 {
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+  justify-content: space-evenly;
+  margin-top: 15vh;
+}
+
+.section-text-2 {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-top: 8vh;
+}
+
+.title-3 {
+  font-size: 25px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bolder;
+  width: 30vw;
+  margin-left: 5vw;
+}
+
+.subtitle-3 {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  margin-left: 5vw;
+}
+
+/* implementing check mark for list */
+.icon::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+}
+
+.check::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 500;
+  content: '\f00c';
+}
+
+.img-work {
+  margin-top: 6vh;
+  width: 35vw;
+}
+/* ------ footer section ------ */
+.footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  background-color: #202945;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-1 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  color: white;
+  border-radius: 3px;
+  border-color: white;
+  border-width: 2px;
+  background-color: transparent;
+  margin-right: 2vw;
+  height: 50px;
+  width: 300px;
+}
+
+.button-2 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  color: white;
+  border: transparent;
+  border-radius: 3px;
+  background-color: #ff6900;
+  margin-left: 2vw;
+  height: 50px;
+  width: 300px;
 }
