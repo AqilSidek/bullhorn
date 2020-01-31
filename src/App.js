@@ -92,7 +92,6 @@ function App() {
 
       {/* ----- Third section ----- */}
       <div>
-        <div className='tab-text'>
         <Tabs defaultActiveKey='ownership' className='categories'>
           <Tab eventKey='ownership' title='Ownership'>
             <Ownership />
@@ -102,7 +101,6 @@ function App() {
           <Tab eventKey='service' title='Service'></Tab>
           <Tab eventKey='behuman' title='Be Human'></Tab>
         </Tabs>
-        </div>
 
         {/* four dots */}
         <div className='dots-wrapper'>
