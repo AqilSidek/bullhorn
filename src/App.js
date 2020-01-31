@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar.js';
-import Carousel from 'react-bootstrap/Carousel'
+import { Tabs, Tab } from 'react-bootstrap'
+
+//components
+import Navbar from './components/Navbar.js'
+import Ownership from './components/Tabs/Ownership.js'
 
 // images
 import WorkDesk from './media/marvin-meyer.jpg'
 import Group from './media/naassom-azevedo.jpg'
-import Meeting from './media/austin-distel.jpg'
 import Icon from './media/bullhorn-circle.png'
 import FourDots from './media/four-dots.png'
 
@@ -16,7 +18,6 @@ function App() {
       
       <Navbar />
 
-      {/* Heading */}
       <div className='heading'>
         <div className='heading-text'>
           <div className='title'>
@@ -91,62 +92,16 @@ function App() {
 
       {/* ----- Third section ----- */}
       <div>
-        <div className='categories'>
-          <div className='category-header'>Ownership</div>
-          <div className='category-header'>Energy</div>
-          <div className='category-header'>Service</div>
-          <div className='category-header'>Be Human</div>
-        </div>
-        
-        <Carousel>
-          <Carousel.Item>
-            {/* text & image */}
-            <div className='section-details'>
-              {/* image */}
-              <div>
-                <img src={Meeting} alt='innovating' className='img-innovation' />
-              </div>
-              
-              {/* text */}
-              <div className='section-text-1'>
-                <div className='title-1'>
-                   Innovating for the recruiting industry for almost 20 years
-                </div>
-                
-                <div className='subtitle-1'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut ali
-                </div>
-              </div>
-            </div>
-          </Carousel.Item>
-        </Carousel>
-      </div>
-      <div className='section-wrapper-3'>
-        {/* categories */}
-        <div className='categories'>
-          <div className='category-header'>Ownership</div>
-          <div className='category-header'>Energy</div>
-          <div className='category-header'>Service</div>
-          <div className='category-header'>Be Human</div>
-        </div>
+        <div className='tab-text'>
+        <Tabs defaultActiveKey='ownership' className='categories'>
+          <Tab eventKey='ownership' title='Ownership'>
+            <Ownership />
+          </Tab>
 
-        {/* text & image */}
-        <div className='section-details'>
-          {/* image */}
-          <div>
-            <img src={Meeting} alt='innovating' className='img-innovation' />
-          </div>
-
-          {/* text */}
-          <div className='section-text-1'>
-            <div className='title-1'>
-              Innovating for the recruiting industry for almost 20 years
-            </div>
-            
-            <div className='subtitle-1'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut ali
-            </div>
-          </div>
+          <Tab eventKey='profile' title='Energy'></Tab>
+          <Tab eventKey='service' title='Service'></Tab>
+          <Tab eventKey='behuman' title='Be Human'></Tab>
+        </Tabs>
         </div>
 
         {/* four dots */}
@@ -154,7 +109,7 @@ function App() {
           <img src={FourDots} alt='four dots' className='dots' />
         </div>
       </div>
-
+      
       {/* ----- Fourth section ----- */}
       <div className='section-wrapper-4'>
         {/* text */}
@@ -170,10 +125,22 @@ function App() {
           </div>
 
           {/* check list */}
-          <ul>
-            <li><span className='icon check'></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</li>
-            <li><span className='icon check'></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</li>
-            <li><span className='icon check'></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</li>
+          <ul className='list'>
+            <li>
+              <span className='icon check list-item'></span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              <br /><br />
+            </li>
+            <li>
+              <span className='icon check list-item'></span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              <br /><br />
+            </li>
+            <li>
+              <span className='icon check list-item'></span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              <br /><br />
+            </li>
           </ul>
         </div>
 

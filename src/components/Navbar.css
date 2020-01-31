@@ -16,20 +16,30 @@
 .menu-wrapper {
     display: flex;
     flex-direction: row;
-    margin-right: 8vw;
+    margin-right: 5vw;
     align-items: center;
     justify-content: space-evenly;
+    width: 40vw;
 }
 
+.menu {
+    height: 0vh;
+    background-color: white;
+    width: 8vw;
+}
 .menu-item {
     display: flex;
     flex-direction: column;
-    margin-left: 5vw;
+    background-color: white;
+    border: none;
+    font-size: 12px;
 }
 
-.button a {
+.dropdown-button {
+    display: flex;
+    flex-direction: column;
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     border-color: transparent;
     background-color: transparent;
 }
