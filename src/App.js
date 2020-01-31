@@ -109,7 +109,7 @@ function App() {
           <img src={FourDots} alt='four dots' className='dots' />
         </div>
       </div>
-      
+
       {/* ----- Fourth section ----- */}
       <div className='section-wrapper-4'>
         {/* text */}

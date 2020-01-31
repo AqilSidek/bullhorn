@@ -49,9 +49,11 @@ export default class ProductsCard extends Component {
                             this.dropdownMenu = element;
                         }}
                     >
-                        <button className='menu-item'> ATS & CRM </button>
-                        <button className='menu-item'> Onboarding </button>
-                        <button className='menu-item'> Salesforce Solutions </button>
+                        <div className='menu-box'>
+                            <button className='menu-item'> ATS & CRM  </button>
+                            <button className='menu-item'> Onboarding </button>
+                            <button className='menu-item'> Salesforce Solutions </button>
+                        </div>
                     </div>
                     )
                 : (

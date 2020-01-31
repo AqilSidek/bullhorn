@@ -20,6 +20,7 @@
     align-items: center;
     justify-content: space-evenly;
     width: 40vw;
+    background-color: white;
 }
 
 .menu {
@@ -27,19 +28,29 @@
     background-color: white;
     width: 8vw;
 }
+
+.menu-box {
+    background-color: white;
+}
 .menu-item {
     display: flex;
     flex-direction: column;
     background-color: white;
-    border: none;
-    font-size: 12px;
+    justify-content: left;
+    align-content: left;
+    border: transparent;
+    font-size: 14px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    width: 150px;
+    padding-bottom: 10px;
 }
 
 .dropdown-button {
     display: flex;
     flex-direction: column;
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     border-color: transparent;
-    background-color: transparent;
+    background-color: white;
 }
