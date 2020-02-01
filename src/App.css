@@ -118,14 +118,8 @@ orange hexcode: #ff6900 */
   height: 70vh;
 }
 
-.categories {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 10vh;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 17px;
-  font-weight: bold;
+.tab-wrapper {
+  margin-top: 5vh;
 }
 
 .section-details {
@@ -134,21 +128,6 @@ orange hexcode: #ff6900 */
   justify-content: space-evenly;
 }
 
-.img-innovation {
-  width: 35vw;
-  margin-top: 7vh;
-  padding-left: 10vw;
-}
-
-.dots-wrapper {
-  display: flex;
-  justify-content: center;
-}
-
-.dots {
-  margin-top: 5vh;
-  width: 15vw;
-}
 /* ------ fourth section ------ */
 .section-wrapper-4 {
   display: flex;

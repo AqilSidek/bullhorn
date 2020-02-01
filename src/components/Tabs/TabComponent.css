@@ -1,0 +1,10 @@
+.tab-list {
+    display: flex;
+    justify-content: center;
+}
+
+.tab-img {
+    width: 35vw;
+    margin-top: 7vh;
+    padding-left: 10vw;
+  }

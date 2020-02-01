@@ -9,7 +9,7 @@ export default class Ownership extends React.Component {
             <div className='section-details'>
               {/* image */}
               <div>
-                <img src={Meeting} alt='innovating' className='img-innovation' />
+                <img src={Meeting} alt='innovating' className='tab-img' />
               </div>
               
               {/* text */}

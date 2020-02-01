@@ -1,16 +1,14 @@
 import React from 'react';
 import './App.css';
-import { Tabs, Tab } from 'react-bootstrap'
 
 //components
 import Navbar from './components/Navbar.js'
-import Ownership from './components/Tabs/Ownership.js'
+import TheTab from './components/Tabs/TabComponent.js'
 
 // images
 import WorkDesk from './media/marvin-meyer.jpg'
 import Group from './media/naassom-azevedo.jpg'
 import Icon from './media/bullhorn-circle.png'
-import FourDots from './media/four-dots.png'
 
 function App() {
   return (
@@ -91,22 +89,7 @@ function App() {
       </div>
 
       {/* ----- Third section ----- */}
-      <div>
-        <Tabs defaultActiveKey='ownership' className='categories'>
-          <Tab eventKey='ownership' title='Ownership'>
-            <Ownership />
-          </Tab>
-
-          <Tab eventKey='profile' title='Energy'></Tab>
-          <Tab eventKey='service' title='Service'></Tab>
-          <Tab eventKey='behuman' title='Be Human'></Tab>
-        </Tabs>
-
-        {/* four dots */}
-        <div className='dots-wrapper'>
-          <img src={FourDots} alt='four dots' className='dots' />
-        </div>
-      </div>
+      <div className='tab-wrapper'><TheTab /></div>
 
       {/* ----- Fourth section ----- */}
       <div className='section-wrapper-4'>
@@ -175,3 +158,6 @@ export default App;
 // Marvin Meyer: https://unsplash.com/@marvelous?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 // Naassom Azevedo: https://unsplash.com/@naassomz1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 // Austin Distel: https://unsplash.com/@austindistel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+// Min An: https://www.pexels.com/@minan1398?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
+// Christina Morillo: https://www.pexels.com/@divinetechygirl
+// Fox: https://www.pexels.com/@hillaryfox?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels

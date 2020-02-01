@@ -1,10 +1,10 @@
 import React from 'react'
 import './Navbar.css'
 import Logo from '../media/bullhorn-logo.png'
-import Products from './ProductsCard.js'
-import Solutions from './SolutionsCard.js'
-import Resources from './ResourcesCard.js'
-import Company from './CompanyCard.js'
+import Products from './Dropdown/ProductsCard.js'
+import Solutions from './Dropdown/SolutionsCard.js'
+import Resources from './Dropdown/ResourcesCard.js'
+import Company from './Dropdown/CompanyCard.js'
 
 export default class Navbar extends React.Component {
     render() {
