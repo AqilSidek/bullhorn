@@ -1,27 +1,33 @@
 {
   "files": {
-    "main.css": "/bullhorn/static/css/main.681b495b.chunk.css",
-    "main.js": "/bullhorn/static/js/main.2823cbbb.chunk.js",
-    "main.js.map": "/bullhorn/static/js/main.2823cbbb.chunk.js.map",
+    "main.css": "/bullhorn/static/css/main.e3888109.chunk.css",
+    "main.js": "/bullhorn/static/js/main.f0d3cc50.chunk.js",
+    "main.js.map": "/bullhorn/static/js/main.f0d3cc50.chunk.js.map",
     "runtime-main.js": "/bullhorn/static/js/runtime-main.5da67bb5.js",
     "runtime-main.js.map": "/bullhorn/static/js/runtime-main.5da67bb5.js.map",
-    "static/js/2.1c9ceed5.chunk.js": "/bullhorn/static/js/2.1c9ceed5.chunk.js",
-    "static/js/2.1c9ceed5.chunk.js.map": "/bullhorn/static/js/2.1c9ceed5.chunk.js.map",
+    "static/css/2.5c17b9f1.chunk.css": "/bullhorn/static/css/2.5c17b9f1.chunk.css",
+    "static/js/2.0622fbb4.chunk.js": "/bullhorn/static/js/2.0622fbb4.chunk.js",
+    "static/js/2.0622fbb4.chunk.js.map": "/bullhorn/static/js/2.0622fbb4.chunk.js.map",
     "index.html": "/bullhorn/index.html",
-    "precache-manifest.65644987889ed70b5ba5a2d79418738b.js": "/bullhorn/precache-manifest.65644987889ed70b5ba5a2d79418738b.js",
+    "precache-manifest.e82d66d0b3d3bb1d421c8cabf582abd4.js": "/bullhorn/precache-manifest.e82d66d0b3d3bb1d421c8cabf582abd4.js",
     "service-worker.js": "/bullhorn/service-worker.js",
-    "static/css/main.681b495b.chunk.css.map": "/bullhorn/static/css/main.681b495b.chunk.css.map",
-    "static/js/2.1c9ceed5.chunk.js.LICENSE": "/bullhorn/static/js/2.1c9ceed5.chunk.js.LICENSE",
-    "static/media/austin-distel.jpg": "/bullhorn/static/media/austin-distel.36240141.jpg",
+    "static/css/2.5c17b9f1.chunk.css.map": "/bullhorn/static/css/2.5c17b9f1.chunk.css.map",
+    "static/css/main.e3888109.chunk.css.map": "/bullhorn/static/css/main.e3888109.chunk.css.map",
+    "static/js/2.0622fbb4.chunk.js.LICENSE": "/bullhorn/static/js/2.0622fbb4.chunk.js.LICENSE",
+    "static/media/austin-distel.jpg": "/bullhorn/static/media/austin-distel.95ff7e4f.jpg",
     "static/media/bullhorn-logo.png": "/bullhorn/static/media/bullhorn-logo.e6509b58.png",
+    "static/media/christina-morillo.jpg": "/bullhorn/static/media/christina-morillo.22226ce4.jpg",
+    "static/media/fox.jpg": "/bullhorn/static/media/fox.a2b91b9b.jpg",
     "static/media/marvin-meyer.jpg": "/bullhorn/static/media/marvin-meyer.41c8c8f4.jpg",
+    "static/media/min-an.jpg": "/bullhorn/static/media/min-an.95065835.jpg",
     "static/media/naassom-azevedo.jpg": "/bullhorn/static/media/naassom-azevedo.bc50cd1f.jpg",
     "static/media/App.css": "/bullhorn/static/media/osman-rana2.d0576126.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5da67bb5.js",
-    "static/js/2.1c9ceed5.chunk.js",
-    "static/css/main.681b495b.chunk.css",
-    "static/js/main.2823cbbb.chunk.js"
+    "static/css/2.5c17b9f1.chunk.css",
+    "static/js/2.0622fbb4.chunk.js",
+    "static/css/main.e3888109.chunk.css",
+    "static/js/main.f0d3cc50.chunk.js"
   ]
 }
